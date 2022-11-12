@@ -1,0 +1,39 @@
+
+<form id="concatus" class="target hidden" name="concatus" action="mailto:davide@fennex.it?subject=Richiesta informazioni" method="POST" enctype="text/plain">	
+	<h2>Scrivici un messaggio</h2>
+
+	<!--
+	<div class="input">
+		<label for="mail">Tua mail</label>
+		<input type="email" name="mail" id="mail" placeholder="ES: paolo@mail.com" required/>
+	</div>
+	-->
+	<div class="input">
+		<label for="name">Nome</label>
+		<input type="text" name="name" id="name" placeholder="ES: Paolo Rossi" required />
+	</div>	
+	<div class="input">
+		<label for="phone">Numero di telefono (opzionale)</label>
+		<input type="tel" name="phone" id="phone" placeholder="ES: 3331115555" />
+	</div>				
+	<div class="input">
+		<label for="description">Descrizione</label>
+		<textarea name="description" id="description" placeholder="ES: Vorrei un sito innovativo per la mia azienda" required></textarea>
+	</div>
+
+	<button type="submit" class="alt big icon fa-send">
+		Invia
+	</button>
+</form>
+
+<script type="text/javascript">
+	$( "#concatus" ).submit(function( event ) {
+		event.preventDefault();
+		
+		var body = "";
+		body += "Nome: " + $(this).find("#name").val() + "%0D%0A";
+		body += "Telefono: " + $(this).find("#phone").val() + "%0D%0A";
+		body += "Descrizione: " + $(this).find("#description").val() + "%0D%0A%0D%0A";
+		window.location = "mailto:davide@fennex.it?subject=Richiesta informazioni&body=" + body;
+	});
+</script>

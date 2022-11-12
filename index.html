@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="it">
+	<head>
+		<title>Fennex - Sviluppo di siti internet, ecommerce e web app</title>
+    	<meta name="description" content="Azienda di informatica specializzata nella realizzazione di siti web, ecommerce e web app. L' attività è stata fondata da tre ragazzi: Davide Murro, Danilo Colella e Chiara Frigo. Il nome deriva da un animale piccolo, scaltro e veloce chiamato Fennec; ora è la nostra mascotte">
+    	<link rel="shortcut icon" type="image/x-icon" href="images/fennec/logo_4.ico"/>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"> 
+		<!-- Per colorare la status bar -->
+		<meta name="theme-color" content="#006E96">
+		<meta name="msapplication-navbutton-color" content="#006E96">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body class="init" id="particles-js" onload="select_projects_list(); select_profiles_list();">
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<div class="content">
+					<h1>
+						<img src="images/fennec/logo_3.png" id="logo" alt="logo fennex">
+					</h1>
+					<h1>FENNEX</h1>
+					<h2>
+						<!--Type happy and be code.<br>-->
+						<small>Type happy and be code! <!--<span class="icon fa-smile-o"></span>--></small>
+					</h2>
+					<!--<a href="#" class="button big alt"><span>Let's Go</span></a>-->
+				</div>
+				<a href="#" title="home" class="button hidden"><span>Let's Go</span></a>
+			</div>
+
+			<a href="#profiles" title="Chi siamo" class="button inner small i1">
+				<div class="content">
+					<h1>Chi siamo?</h1>
+					<h2></h2>
+					<div class="icon fa-heart"></div>
+				</div>
+			</a>
+			<a href="#main" title="I nostri lavori" class="button inner small i2">
+				<div class="content">
+					<h1>I nostri lavori</h1>
+					<h2></h2>
+					<div class="icon fa-play"></div>
+				</div>
+			</a>
+			<!--
+			<a href="#" data-target="#concatus" class="button inner small i3">
+				<div class="content">
+					<h1>Contattaci!</h1>
+					<h2>Prendiamoci un caffè insieme</h2>
+					<div class="icon fa-coffee"></div>
+				</div>
+			</a>
+			-->
+		</header>
+
+		<!-- Main -->
+		<section>
+			<div id="main" class="target hidden">
+				<h2>
+					I nostri lavori!
+					<small>Ecco le nostre creazioni più interessanti, sviluppate con il cuore <div class="icon fa-heart"></div></small>
+				</h2>
+			</div>
+
+			<div id="profiles" class="target hidden">	
+				<h2>Chi siamo?</h2>		
+			</div>
+
+			<!--
+			<div include-html="contactus.html">
+
+			</div>
+			-->
+
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer" include-html="footer.html">
+		</footer>
+
+		<!-- Scripts -->
+		<script src="js/db.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/util.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/projects.js"></script>
+		<script src="js/profiles.js"></script>
+
+		<!-- particles -->
+		<script src="js/particles.js"></script>
+		<script src="js/particles-config.js"></script>
+
+	</body>
+</html>

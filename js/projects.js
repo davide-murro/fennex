@@ -13,13 +13,13 @@ function select_projects_list() {
 		obj_html.find(".columns")
 		.append(
 			$("<div></div>")
-			.addClass("image")
-			.addClass("fit")
 			.append(
 				$("<a/>")
 				.attr("href", link)
 				.append(
 					$("<div></div>")
+					.addClass("image")
+					.addClass("fit")
 					.addClass("img-container")
 					.html(
 						$("<img/>")
@@ -30,21 +30,25 @@ function select_projects_list() {
 					
 				)
 				.append(
-					$("<h3></h3>")
-					.addClass("title")
-					.html(project.title)
-				)
-				/*
-				.append(
-					$("<small></small>")
-					.addClass("date")
-					.html(date_format(project.insert, 'dd-mm-yyyy HH:ii'))
-				)
-				*/
-				.append(
-					$("<p></p>")
-					.addClass("description")
-					.html(project.description.length > 150 ? project.description.substring(0, 150) + "..." : project.description)
+					$("<div></div>")
+					.addClass("content")
+					.append(
+						$("<h3></h3>")
+						.addClass("title")
+						.html(project.title)
+					)
+					/*
+					.append(
+						$("<small></small>")
+						.addClass("date")
+						.html(date_format(project.insert, 'dd-mm-yyyy HH:ii'))
+					)
+					*/
+					.append(
+						$("<p></p>")
+						.addClass("description")
+						.html(project.description.length > 150 ? project.description.substring(0, 150) + "..." : project.description)
+					)
 				)
 			)
 		)
@@ -88,6 +92,14 @@ function select_project_info() {
 			var obj_html = $("<div></div>")
 							.addClass("inner")
 							.addClass(class_secondary)
+							.append(
+								$("<div></div>")
+								.addClass("target")
+								.append(
+									$("<h2></h2>")
+									.html(project.title)
+								)
+							)
 							.append(
 								$("<div></div>")
 								.addClass("image")

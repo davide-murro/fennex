@@ -1,18 +1,14 @@
 //stampo tuttoooo nella home
 function select_projects_list() {
-	var obj_html = $("<div></div>")
-						.addClass("inner")
-						.append(
-							$("<div></div>")
-							.addClass("columns")
-						);
+	var obj_html = $("<div></div>").addClass("inner");
 
 	for (let [index, project] of projects.entries()) {
 		let link = project.link ? project.link : "detail.html?project="+index;
 
-		obj_html.find(".columns")
+		obj_html
 		.append(
 			$("<div></div>")
+			.addClass("preview")
 			.append(
 				$("<a/>")
 				.attr("href", link)

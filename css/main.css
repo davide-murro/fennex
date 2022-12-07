@@ -815,13 +815,9 @@
 
 	ul {
 		list-style: disc;
+		list-style-position: inside;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
 	}
-
-		ul li {
-			padding-left: 0.5em;
-		}
 
 		ul.alt {
 			list-style: none;
@@ -978,7 +974,7 @@
 		border-top-color: rgba(144, 144, 144, 0.25);
 	}
 
-/* Columns */
+/* Column Preview */
 
 	#main {
    		max-width: 70em;
@@ -990,28 +986,22 @@
 		}
 	}
 
-	.columns {
-		position: relative;
-		-moz-column-count: 1;
-		-webkit-column-count: 1;
-		column-count: 1;
-		-moz-column-gap: 1em;
-		-webkit-column-gap: 1em;
-		column-gap: 1em;
+	.preview {
+		padding: 0 0 4em;
 	}
 
-		.columns .image {
+		.preview .image {
 			position: relative;
 			display: inline-block;
 			margin: 0 0 0 0;
 			width: 100%;
 			overflow: hidden;		
 		}
-			.columns .image .img-container {
+			.preview .image .img-container {
 				overflow: hidden;
 			}
 
-			.columns .image .img {
+			.preview .image .img {
 				-moz-transition: -moz-transform 0.2s ease-in-out;
 				-webkit-transition: -webkit-transform 0.2s ease-in-out;
 				-ms-transition: -ms-transform 0.2s ease-in-out;
@@ -1020,7 +1010,7 @@
 				-webkit-transform: translate3D(0, 0, 0);
 			}
 
-			.columns .image:hover .img {
+			.preview .image:hover .img {
 				/*
 				-moz-transform: scale(1.1) rotate(3deg);
 				-webkit-transform: scale(1.1) rotate(3deg);
@@ -1033,30 +1023,18 @@
 				transform: scale(1.1);
 			}
 
-		.columns .title {
-			font-size: 2em;
-			
-			margin: 5px 0 0 0;
-			margin-bottom: 0;
-			color: #006E96;
+		.preview .title {
+			margin: 5px 0;
 		}
-		.columns .date {
+		.preview .date {
 			font-size: .75em;
 		}
-		.columns .description {
+		.preview .description {
 			font-size: 1em;
 			line-height: 1.5em;
 		}
 
-		@media screen and (max-width: 480px) {
 
-			.columns {
-				-moz-column-count: 1;
-				-webkit-column-count: 1;
-				column-count: 1;
-			}
-
-		}
 
 /* Preview / Profiles */
 
@@ -1204,16 +1182,19 @@
 			margin-bottom: 0;
 		}
 		#preview .content header .title
-		,.profile .content header .title {
+		,.profile .content header .title
+		,.preview .content .title {
 			font-size: 2.5em;
 			color: #006E96;
 		}
 		#preview .content .subtitle
-		,.profile .content .subtitle {
+		,.profile .content .subtitle
+		,.preview .content .subtitle {
 			color: #FF8F16;
 		}
 		#preview .content header .date
-		,.profile .content header .date {
+		,.profile .content header .date
+		,.preview .content .date {
 			display: block;
 		}
 		#preview .content .data

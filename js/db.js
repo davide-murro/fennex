@@ -43,7 +43,7 @@ var profiles = [
 		,role: "Programmatore WEB"
 		,phone: "+393463573444"
 		,mail: "davide@fennex.it"
-		,description: "Sono uno sviluppatore, programmare per me non è solo un lavoro, è uno stile di vita.<br/> Amo risolvere problemi, amo creare dal nulla qualcosa che sia utile per qualcuno."
+		,description: "Sono uno sviluppatore semplice, mi circondo di tecnologia e video giochi, ma natura e sport rimangono sempre tra le mie passioni."
 
 	}
 	,{

@@ -1,5 +1,5 @@
 
-<form id="concatus" class="target hidden" name="concatus" action="mailto:davide@fennex.it?subject=Richiesta informazioni" method="POST" enctype="text/plain">	
+<form id="concatus" class="target hidden" name="concatus" action="mailto:info@fennex.it?subject=Richiesta informazioni" method="POST" enctype="text/plain">	
 	<h2>Scrivici un messaggio</h2>
 
 	<!--
@@ -34,6 +34,6 @@
 		body += "Nome: " + $(this).find("#name").val() + "%0D%0A";
 		body += "Telefono: " + $(this).find("#phone").val() + "%0D%0A";
 		body += "Descrizione: " + $(this).find("#description").val() + "%0D%0A%0D%0A";
-		window.location = "mailto:davide@fennex.it?subject=Richiesta informazioni&body=" + body;
+		window.location = "mailto:info@fennex.it?subject=Richiesta informazioni&body=" + body;
 	});
 </script>

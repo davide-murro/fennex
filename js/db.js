@@ -4,9 +4,8 @@ var projects = [
 		,img: "images/projects/people/img01.png"
 		,title: "People."
 		,demo: "http://demo.fennex.it/people"
-		,description: "Sito semplice e moderno realizzato per l'universit&agrave; IUAV di Venezia. Il sito a fatto guadagnare un bel 30 e lode alla nostra amica Chiara. <span class='icon fa-smile-o'></span>"
+		,description: "Sito semplice e moderno realizzato per l'universit&agrave; IUAV di Venezia. Il sito a fatto guadagnare un bel 30 e lode alla nostra amica. <span class='icon fa-smile-o'></span>"
 		,features: ["Completamente responsive", "Bootstrap 4"]
-		//,description: "Sito semplice e moderno. completamente responsive. Utilizzo di bootstrap 4 <img src='images/projects/people/img02.png'/><img src='images/projects/people/img03.png'/><img src='images/projects/people/img04.png'/><img src='images/projects/people/img05.png'/>"
 	}
 	,{
 		insert: new Date("2018/07/10 20:04")
@@ -42,7 +41,7 @@ var profiles = [
 		,name: "Mario Rossi"
 		,role: "Programmatore WEB"
 		,phone: "+393334445555"
-		,mail: "profile1@fennex.it"
+		,mail: "mariorossi@fennex.it"
 		,description: "Sono uno sviluppatore semplice, mi circondo di tecnologia e video giochi, ma natura e sport rimangono sempre tra le mie passioni."
 
 	}
@@ -52,7 +51,7 @@ var profiles = [
 		,name: "Bart Simpson"
 		,role: "Programmatore WEB"
 		,phone: "+393405456767"
-		,mail: "profile2@gmail.com"
+		,mail: "bart@gmail.com"
 		,description: "Prendere una sensazione, darle forma e liberarla, così che possa cambiare qualcosa nel mondo di chi la riceve.<br/> Nuoto nell'oceano digitale per far emergere contenuti che meritano di essere condivisi."
 	}
 	,{

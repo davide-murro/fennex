@@ -38,27 +38,27 @@ var projects = [
 var profiles = [
 	{
 		date: new Date("1995/12/26")
-		,img: "images/profiles/davidemurro.jpg"
-		,name: "Davide Murro"
+		,img: "images/profiles/profile1.jpg"
+		,name: "Mario Rossi"
 		,role: "Programmatore WEB"
-		,phone: "+393463573444"
-		,mail: "davide@fennex.it"
+		,phone: "+393334445555"
+		,mail: "profile1@fennex.it"
 		,description: "Sono uno sviluppatore semplice, mi circondo di tecnologia e video giochi, ma natura e sport rimangono sempre tra le mie passioni."
 
 	}
 	,{
 		date: new Date("1996/10/17")
-		,img: "images/profiles/danilocolella.jpg"
-		,name: "Danilo Colella"
+		,img: "images/profiles/profile2.jpg"
+		,name: "Bart Simpson"
 		,role: "Programmatore WEB"
-		,phone: "+393406744365"
-		,mail: "danilocolella17@gmail.com"
+		,phone: "+393405456767"
+		,mail: "profile2@gmail.com"
 		,description: "Prendere una sensazione, darle forma e liberarla, così che possa cambiare qualcosa nel mondo di chi la riceve.<br/> Nuoto nell'oceano digitale per far emergere contenuti che meritano di essere condivisi."
 	}
 	,{
 		date: new Date("1997/05/02")
-		,img: "images/profiles/chiarafrigo.jpg"
-		,name: "Chiara Frigo"
+		,img: "images/profiles/profile3.jpg"
+		,name: "Profilo 3"
 		,role: "Designer"
 		//,phone: "+393472486406"
 		,mail: ""

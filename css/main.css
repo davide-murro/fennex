@@ -72,11 +72,6 @@
 		min-height: 100vh;
 	}
 	body.init {
-		/*background-image: url("../images/background.jpg");
-		background-size: 100% 100%;
-	    background-repeat: no-repeat;
-	    background-attachment: fixed;
-		background-position: center; */
 		overflow: hidden;
 		position: fixed;
 	}
@@ -1070,9 +1065,13 @@
 	}
 
 	#preview .image.easteregg {
-	    max-width: 300px;
-	    margin: auto;
-	    display: block;
+		margin: 6em auto;
+		display: block;
+		border-radius: 100%;
+		overflow: hidden;
+		max-height: 400px;
+		width: 100%;
+		max-width: 400px;
 	}
 
 	#preview .inner.vertical

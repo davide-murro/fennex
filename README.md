@@ -38,6 +38,29 @@ The tables are simple arrays of objects and for each there is a js file that man
 - **profiles**
   The components of the company
 
+To insert an element into DB just add an object to array into db.js file <br>
+Here an example of projects array (table of DB):
+```javascript
+var projects = [
+	{
+		insert: new Date("2018/06/29 19:50")
+		,img: "images/projects/people/img01.png"
+		,title: "People."
+		,demo: "http://demo.fennex.it/people"
+		,description: "Sito semplice e moderno realizzato per l'universit&agrave; IUAV di Venezia. Il sito a fatto guadagnare un bel 30 e lode alla nostra amica. <span class='icon fa-smile-o'></span>"
+		,features: ["Completamente responsive", "Bootstrap 4"]
+	}
+	,{
+		insert: new Date("2018/07/10 20:04")
+		,img: "images/projects/michelangeli/img01.png"
+		,title: "Michelangeli"
+		,demo: "http://michelangeli.fennex.it"
+		,description: "Sito per la vendita di prodotti artigianali. Michelangeli pu&ograve; sembrare un semplice mercatino d'artigianato, ma non lasciatevi ingannare! nei suoi prodotti c'&egrave; tutto l'amore di una mamma! <span class='icon fa-heart'></span>"
+		,features: ["Completamente responsive", "Vetrina prodotti"]
+	}
+]
+```
+
 ## HTML structure
 
 The site is made creating the skeleton in HTML and then including parts and information by javascript

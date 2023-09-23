@@ -39,7 +39,7 @@ The tables are simple arrays of objects and for each there is a js file that man
   The components of the company
 
 To insert an element into DB just add an object to array into db.js file <br>
-Here an example of projects array (table of DB):
+Here an example of ***projects*** array (table of DB):
 ```javascript
 var projects = [
 	{

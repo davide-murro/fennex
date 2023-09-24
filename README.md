@@ -87,10 +87,12 @@ The site is made creating the skeleton in HTML and then including parts and info
 - **contact us**
   Page for the contact informations
 
-## Summary
+## Demo link
 
-- Demo link: https://davidemurro.github.io/Fennex/
-- Screenshots:
-  ![davidemurro github io_Fennex_](https://github.com/DavideMurro/Fennex/assets/118051417/839ce6dd-022e-4237-8599-95c52778eccf)
-  ![davidemurro github io_Fennex_chi-siamo](https://github.com/DavideMurro/Fennex/assets/118051417/85fe89e1-540d-4311-a1a2-2fd44c6d21b2)
-  ![davidemurro github io_Fennex_detail html_project=0](https://github.com/DavideMurro/Fennex/assets/118051417/5186f4b9-070b-4876-b3ac-23d6335bca8e)
+https://davidemurro.github.io/Fennex/
+
+## Screenshots
+
+![davidemurro github io_Fennex_](https://github.com/DavideMurro/Fennex/assets/118051417/839ce6dd-022e-4237-8599-95c52778eccf)
+![davidemurro github io_Fennex_chi-siamo](https://github.com/DavideMurro/Fennex/assets/118051417/85fe89e1-540d-4311-a1a2-2fd44c6d21b2)
+![davidemurro github io_Fennex_detail html_project=0](https://github.com/DavideMurro/Fennex/assets/118051417/5186f4b9-070b-4876-b3ac-23d6335bca8e)

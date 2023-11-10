@@ -89,7 +89,7 @@ The site is made creating the skeleton in HTML and then including parts and info
 
 ## Demo link
 
-https://davidemurro.github.io/Fennex/
+https://davide-murro.github.io/fennex/
 
 ## Screenshots
 
